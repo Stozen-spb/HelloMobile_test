@@ -1,0 +1,223 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  padding: 0px 0px;
+  margin: 0 0;
+  min-width: 320px;
+  max-width: 100%;
+  min-height: 90vh;
+  background: #000 url(../img/bg.jpg) no-repeat center top;
+  background-size: auto 100%;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+ul,
+ol {
+  margin: 0;
+}
+input::-webkit-input-placeholder {
+  color: #283645;
+  font-size: 16px;
+  opacity: .8;
+}
+input::-moz-placeholder {
+  color: #283645;
+  font-size: 16px;
+  opacity: .8;
+}
+input:-ms-input-placeholder {
+  color: #283645;
+  font-size: 16px;
+  opacity: .8;
+}
+input::placeholder {
+  color: #283645;
+  font-size: 16px;
+  opacity: .8;
+}
+input:disabled,
+button:disabled {
+  opacity: .4;
+}
+input:focus {
+  border: 2px solid transparent;
+}
+a {
+  color: inherit;
+}
+.main-container {
+  padding: 0px 20px;
+}
+.subscribe-info {
+  width: 100%;
+  padding: 18px 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+.logo-and-slogan-conainer {
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 240px;
+  padding-top: 95px;
+  margin-bottom: 130px;
+  background: url(../img/cloud.png) no-repeat center top;
+}
+.logo-and-slogan-conainer h1.big {
+  font-size: 52px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.logo-and-slogan-conainer h1.smaller {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.logo-and-slogan-conainer .slogan-end {
+  width: 100%;
+  color: #ff6000;
+  font-size: 18.6px;
+  text-transform: uppercase;
+  text-align: justify;
+}
+.slogan-container {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.slogan-container h1 {
+  font-size: 26px;
+}
+.read-recipe-button {
+  display: block;
+  width: 87.5%;
+  margin: 0 auto;
+  padding: 5.5% 18%;
+  background-color: #ff6000;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.read-recipe-button .read-recipe-button-read {
+  font-size: 14px;
+  padding: 5% 0px;
+  background: #ff6000;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.read-recipe-button .read-recipe-button-inner {
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.read-recipe-button-image {
+  width: 82px;
+  height: 55px;
+  background: #ff6000 url(../img/food-solid.png) no-repeat center;
+  background-size: 100% 100%;
+}
+@media (min-width: 540px) {
+  .read-recipe-button .read-recipe-button-read {
+    font-size: 24px;
+  }
+}
+@media (min-width: 760px) {
+  .read-recipe-button .read-recipe-button-read {
+    font-size: 30px;
+  }
+}
+.cancel-read-recipe-button {
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 33px;
+  border: solid #fff 2px;
+  margin-bottom: 190px;
+  text-decoration: none;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 18px 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+@media (min-width: 790px) {
+  body {
+    width: 790px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 960px) {
+  input::-webkit-input-placeholder {
+    color: #283645;
+    font-size: 14px;
+    opacity: 1.0;
+  }
+  input::-moz-placeholder {
+    color: #283645;
+    font-size: 14px;
+    opacity: 1.0;
+  }
+  input:-ms-input-placeholder {
+    color: #283645;
+    font-size: 14px;
+    opacity: 1.0;
+  }
+  input::placeholder {
+    color: #283645;
+    font-size: 14px;
+    opacity: 1.0;
+  }
+  .info {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+  .contacts fieldset {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .contacts .form-item-container {
+    margin-bottom: 20px;
+  }
+  .contacts label {
+    display: inline-block;
+    width: 80px;
+  }
+  .contacts input {
+    width: 70%;
+    height: 30px;
+    padding-left: 10px;
+  }
+}
+/*  Скобочка медиавыражений */
